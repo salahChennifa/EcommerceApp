@@ -1,0 +1,28 @@
+.ngx-pagination .current{
+    background-color: #f89d18 !important;
+}
+
+.myPagination /deep/ .ngx-pagination .current{
+    
+    font-size: 24px;
+    border-bottom: 3px solid #f89d18;
+    color: black;
+}
+
+.myPagination >>> .ngx-pagination .pagination-previous{
+    background: #f89d18;
+}
+
+.myPagination >>> .ngx-pagination .pagination-next{
+    background: #f89d18;
+}
+
+.fix-img{
+    margin: 30px;
+    padding: 20px;
+    /* float: left; */
+    width:  300px;
+    height: 250px;
+    object-fit: cover;
+
+}

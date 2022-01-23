@@ -1,0 +1,13 @@
+
+@font-face {
+    font-family: 'latoheavy';
+    src: url('lato-heavy-webfont.eot');
+    src: url('lato-heavy-webfont.eot?#iefix') format('embedded-opentype'),
+         url('lato-heavy-webfont.woff2') format('woff2'),
+         url('lato-heavy-webfont.woff') format('woff'),
+         url('lato-heavy-webfont.ttf') format('truetype'),
+         url('lato-heavy-webfont.svg#latoheavy') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}

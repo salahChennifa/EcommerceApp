@@ -1,0 +1,17 @@
+
+/* #okta-sign-in.auth-container .button-primary {
+    background: #f89d18;
+}
+
+
+#okta-sign-in .registration-container .registration-link{
+    background: #f89d18;
+} */
+
+#okta-sign-in.auth-container.main-container {
+    border-color: red;
+  }
+  
+  #okta-sign-in.auth-container .okta-sign-in-header {
+    border-bottom-color: red;
+  }

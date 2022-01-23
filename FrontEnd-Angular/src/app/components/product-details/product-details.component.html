@@ -1,0 +1,152 @@
+<!-- BREADCRUMBS -->
+<div class="title-breadcrumb">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 col-sm-12 col-xs-12">
+                <div class="bred-title">
+                    <h3>Product details</h3>
+                </div>
+                <ol class="breadcrumb">
+                    <li><a href="index.html">Home</a>
+                    </li>
+                    <li><a href="about-us.html">Product details</a>
+                    </li>
+                </ol>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- BREADCRUMBS:END -->
+
+<div class="single-product-area section-padding">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3 col-sm-3 col-xs-12">
+                
+            </div>
+            <div class="col-md-9 col-sm-9 col-xs-12">
+                <div class="single-product-details">
+                    <div class="row">
+                        <div class="col-md-6 col-sm-6 col-xs-12">
+                            <div class="product-img-detail">
+                                    
+                                <div class="single_product_image">
+                                    <input type="hidden" id="__VIEWxSTATE" />
+                                    <ul id='zoom1' class=''>
+                                        <li>
+                                            <img src="{{product?.imageUrl}}" alt='image1' />
+                                        </li>
+                    
+                                    </ul>
+                                </div>
+                                
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-sm-6 col-xs-12">
+                            <div class="single-product-content">
+                                <h3>{{product?.name}}</h3>
+                                <div class="product-review">
+                                    <ul>
+                                        <li>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star-half-o"></i>
+                                        </li>
+                                        <li>5 Review(s) <span class="rev-border">|</span></li>
+                                        <li>Add Your Review</li>
+                                    </ul>
+                                    <h4>Availability <span>: In Stock {{product?.unitsInStock}} Item(s)</span>
+                                </h4>
+                                    <div class="product-wid-price">
+                                        <ins>{{product?.unitPrice | currency:'USD'}}</ins> <del></del>
+                                    </div>
+                                    <p>{{product?.description}}. </p>
+                                </div>
+
+                                <div class="single-color last-color-child">
+                                    <!-- <div class="size-heading">
+                                        <h5>Qty :</h5>
+                                    </div> -->
+                                    <div class="size-down">
+                                        <input type="number" step="1" min="0" max="119" name="quantity[113]" value="1" title="Qty" class="input-text qty text" size="4">
+                                    </div>
+                                    <div class="size-cart">
+                                    <a (click)="addToCart()" class="fa fa-shopping-cart"> Add to cart</a>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="product-tab product-tab-single">
+                    <ul class="nav nav-tabs" role="tablist">
+                        <li role="presentation" class="active"><a href="#home" aria-controls="home" role="tab" data-toggle="tab">Product description</a>
+                        </li>
+                        <li role="presentation"><a href="#profile" aria-controls="profile" role="tab" data-toggle="tab">Reviews</a>
+                        </li>
+                        <li role="presentation"><a href="#messages" aria-controls="messages" role="tab" data-toggle="tab">Product tags</a>
+                        </li>
+                    </ul>
+                    <!-- Tab panes -->
+                    <div class="tab-content">
+                        <div role="tabpanel" class="tab-pane active" id="home">{{product?.description}}.</div>
+                        <div role="tabpanel" class="tab-pane" id="profile">
+                            <div class="review_panel">
+                                <div class="review_comments">
+                                    <div class="review_heading">
+                                        <div class="review_heading_left">
+                                            <h2><span>Review for </span> "Gray Structured T-Shirt"</h2>
+                                        </div>
+                                        <div class="review_heading_right">
+                                            <ul id="review_heading_star">
+                                                <li><a href="" class="fa fa-star"></a></li>
+                                                <li><a href="" class="fa fa-star"></a></li>
+                                                <li><a href="" class="fa fa-star"></a></li>
+                                                <li><a href="" class="fa fa-star"></a></li>
+                                                <li><a href="" class="fa fa-star"></a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="single_review_comment">
+                                        <div class="single_review_img">
+                                            <img src="images/kous.png" alt="">
+                                        </div>
+                                        <div class="single_review_text">
+                                            <h4>A Stunning Beauty!</h4>
+                                            <ul id="single_review_star">
+                                                <li><a href="" class="fa fa-star"></a></li>
+                                                <li><a href="" class="fa fa-star"></a></li>
+                                                <li><a href="" class="fa fa-star"></a></li>
+                                                <li><a href="" class="fa fa-star"></a></li>
+                                                <li><a href="" class="fa fa-star"></a></li>
+                                            </ul>
+                                            <p>Semper orci etiam ac ultricies ante. Donec lobortis variusjusto et. Curabitur egestas aliquet massa non elementum. Quisque at risus nisl. Aliquam erat volutpat. Suspendisse potenti. Nullam porta faucibus elit.</p>
+                                            <div class="review_italic">
+                                                <p><span>Nicole Bailey,</span> 12.05.2013</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="Review_input">
+                                    <div class="review_input_heading">
+                                        <h3>Write your review</h3>
+                                    </div>
+                                    <div class="review_comment_input">
+                                        <input type="text" placeholder="Enter Your Nickname"><br>
+                                        <input type="text" placeholder="Summary of your Review"><br>
+                                        <textarea cols="30" rows="10" placeholder="Write your review"></textarea><br>
+                                        <input type="submit" value="Submit Review">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div role="tabpanel" class="tab-pane" id="messages">Boy the way Glen Miller played.Then along come two they got nothin' but their jeans. Flying away on a wing and a prayer. Who could it be? Believe it or not its just me. Today still wanted by the government they survive as soldiers of fortune. Boy the way Glen Miller played. Songs that made the hit parade. Guys like us we had it made. Those were the days.</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

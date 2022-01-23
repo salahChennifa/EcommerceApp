@@ -1,0 +1,59 @@
+<div class="header-area">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 col-sm-5">
+                <div class="user-menu">
+                    <ul class="list-unstyled list-inline">
+                        <!-- ADD here dropdownlist using click -->
+                        <li class="dropdown dropdown-small" (click)="toggleLanguages($event)"  [ngClass]="{'open': isToggleLanguages}">
+                            <a data-toggle="dropdown" data-hover="dropdown" class="dropdown-toggle" ><span class="value">English </span><i class="fa fa-angle-down"></i></a>
+                            <ul class="dropdown-menu">
+                                <li><a >English</a>
+                                </li>
+                                <li><a >French</a>
+                                </li>
+                                <li><a >German</a>
+                                </li>
+                            </ul>
+                        </li>
+
+                        <li class="dropdown dropdown-small" (click)="togglePrices($event)"  [ngClass]="{'open': isTogglePrices}">
+                            <a data-toggle="dropdown" data-hover="dropdown" class="dropdown-toggle" ><span class="value">USD </span><i class="fa fa-angle-down"></i></a>
+                            <ul class="dropdown-menu">
+                                <li><a >USD</a>
+                                </li>
+                                <li><a >INR</a>
+                                </li>
+                                <li><a >GBP</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>Welcome to Ecommerce</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-md-6 col-sm-7">
+                <div class="header-right">
+                    <ul>
+                        <li class="dropdown dropdown-small"(click)="toggleMyAccount($event)"  [ngClass]="{'open': isToggleMyAccount}">
+                            <a data-toggle="dropdown" data-hover="dropdown" class="dropdown-toggle"><img class="account" src="assets/FilesPage/images/account.png" alt="#"><span class="value">My Account </span><i class="fa fa-angle-down"></i>
+                            </a>
+                            <ul class="dropdown-menu account-menu">
+                                <li><a > Welcome back {{ userFullName }}!</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li><a routerLink="/cart-details"><i class="fa fa-heart-o"></i> Wishlist</a>
+                        </li>
+                        <li>
+                            <a (click)="logout()"><img src="assets/FilesPage/images/check.png" alt="#"> Logout</a>
+                        </li>
+                        <li class="last-child">
+                            <a class="logg" routerLink="/login"><img class="login" src="assets/FilesPage/images/log.png" alt="#">Login</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

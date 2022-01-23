@@ -1,0 +1,132 @@
+<!-- BREADCRUMBS -->
+<div class="title-breadcrumb">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 col-sm-12 col-xs-12">
+                <div class="bred-title">
+                    <h3>Shoping cart</h3>
+                </div>
+                <ol class="breadcrumb">
+                    <li><a href="index.html">Home</a>
+                    </li>
+                    <li><a href="cart-page.html">Shoping cart</a>
+                    </li>
+                </ol>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+<div class="shoping-cart section-padding">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 col-sm-12 col-xs-12">
+            <div class="headline">
+                <h2>Shopping cart</h2>
+            </div>
+            <div class="table-responsive">
+                <table class="table table-bordered">
+                    <thead>
+                        <tr>
+                            <th class="cart-product item">Product</th>
+                            <th class="cart-product-name item">Product Name</th>
+                            <th class="cart-qty item">Quantity</th>
+                            <th class="cart-unit item">Unit price</th>
+                            <th class="cart-delivery item">Delivery info</th>
+                            <th class="cart-sub-total last-item">Sub total</th>
+                            <th class="cart-romove item">Remove</th>
+                        </tr>
+                    </thead>
+                    <!-- /thead -->
+                    <tfoot>
+                        <tr>
+                            <td colspan="7">
+                                <div class="shopping-cart-btn">
+                                    <button type="button" class="btn btn-default left-cart">Continue Shopping</button>
+                                    <button type="button" class="btn btn-default right-cart right-margin">Clear shopping cart</button>
+                                </div>
+                                <!-- /.shopping-cart-btn -->
+                            </td>
+                        </tr>
+                    </tfoot>
+                    <tbody>
+                        <tr *ngFor="let tempCartItem of cartItems">
+                            <td class="cart-image">
+                                <a href="#" class="entry-thumbnail">
+                                    <img  src="{{ tempCartItem.imageUrl }}" alt="">
+                                </a>
+                            </td>
+                            <td class="cart-product-name-info">
+                                <div class="cc-tr-inner">
+                                    <h4 class="cart-product-description"><a href="#">{{ tempCartItem.name }}</a></h4>
+                
+                               </div>
+                            </td>
+                            <td class="cart-product-quantity">
+                                <div class="quant-input">
+                                    <div class="col">
+                                        <button (click)="incrementQuantity(tempCartItem)" class="btn btn-primary btn-sm">
+                                            +
+                                        </button>
+                                    </div>
+                
+                                    <div class="col ml-4 mr-2">
+                                        {{tempCartItem.quantity}}
+                                    </div>
+                
+                                    <div class="col">
+                                        <button (click)="decrementQuantity(tempCartItem)" class="btn btn-primary btn-sm">
+                                            -
+                                        </button>
+                                    </div>
+                                </div>
+                            </td>
+                            <td class="cart-product-price"><div class="cc-pr">{{ tempCartItem.unitPrice | currency: 'USD' }}</div></td>
+                            <td class="cart-product-delivery"><div class="cc-pr">Free shipping</div></td>
+                            <td class="cart-product-sub-total"><div class="cc-pr">{{ tempCartItem.quantity! * tempCartItem.unitPrice! | currency: 'USD' }}</div></td>
+                            <td class="romove-item">
+                                <!-- <a href="#"><img src="images/remove.png" alt="">
+                                </a> -->
+                                <button style="margin-top: 5px;" (click)="removeQuantity(tempCartItem)" class="btn btn-primary btn-sm">
+                                    Remvoe
+                                </button>
+                            </td>
+                        </tr>
+                    </tbody>
+                    <!-- /tbody -->
+                </table>
+                <!-- /table -->
+            </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- SHOPING-CART-AREA:END   -->
+
+<!-- SHOPING-CART-BOTTOM-AREA   -->
+<div class="shoping-cart-bottom-area">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4 col-sm-4 col-xs-12">
+                
+            </div>
+            <div class="col-md-4 col-sm-4 col-xs-12">
+               
+            </div>
+            <div class="col-md-4 col-sm-4 col-xs-12">
+                <div class="checkout">
+                    <p>Total Quantity<span>{{ totalQuantity }}</span>
+                    </p>
+                    <h4>Total Price<span>{{ totalPrice | currency: 'USD' }}</span></h4>
+                    <button routerLink="/checkout" type="button" class="btn btn-default">Proceed to checkout</button>
+                   
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+

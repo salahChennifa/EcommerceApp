@@ -1,0 +1,105 @@
+   <!-- BREADCRUMBS  -->
+   <div class="title-breadcrumb">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 col-sm-12 col-xs-12">
+                <div class="bred-title">
+                    <h3>Product list</h3>
+                </div>
+                <ol class="breadcrumb">
+                    <li><a routerLink="/products">Home</a>
+                    </li>
+                    <li><a routerLink="/products">Product list</a>
+                    </li>
+                </ol>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- BREADCRUMBS:END  -->
+
+
+<!-- PRODUCT-LIST-AREA  -->
+<div class="product-list-area section-padding">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3 col-sm-3 col-xs-12">
+                
+            </div>
+            <div class="col-md-9 col-sm-9 col-xs-12">
+                <div class="row">
+                    <div *ngFor="let tempProduct of products! | paginate : {
+                        itemsPerPage: thePageSize,
+                        currentPage: thePageNumber,
+                        totalItems: thetotalElements
+                        };" class="col-md-4 col-sm-4 col-xs-12">
+                        <div class="product-single">
+                            <a routerLink="/products/{{tempProduct.id}}"><img src="{{tempProduct.imageUrl}}" alt="#">
+                            </a>
+                            <div class="tag new">
+                                <span>new</span>
+                            </div>
+                            <div class="hot-wid-rating">
+                                <h4><a routerLink="/products/{{tempProduct.id}}">{{tempProduct.name}}</a></h4>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <div class="product-wid-price">
+                                    <ins>{{tempProduct.unitPrice | currency:'USD'}}</ins>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div *ngIf="products?.length == 0" 
+                        class="alert alert-warning col-md-12"
+                        role="alert"
+                        >
+                            No products found !!!
+                    
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+        <!-- Add pagination on the button -->
+<div class="footer-pagination">
+    <div class="row">
+        <div class="col-md-12">
+            <div class="col-md-12">
+                <div class="row">
+                    <div class="col-md-9" style="padding-left: 30%">
+                   
+                        <pagination-controls                                       
+                            class="myPagination"
+                            previousLabel="Prev"
+                            nextLabel="Next"
+                            [maxSize]="4"
+                            (pageChange)="listProducts($event)"
+                            
+                        ></pagination-controls>
+                    </div>
+                    <div class="col-md-3 mt-2" style="text-align: right;">
+                        <span class="mr-2">
+                                Page Size
+                        </span>
+                        <select (change)="updatePageSize($event)">
+                            
+                            <option value="5">5</option>
+                            <option value="10">10</option>
+                            <option value="20">20</option>
+                            <option value="50">50</option>
+                        </select>
+                       
+                    </div>
+            </div>
+            
+        </div>
+    </div>
+</div>
+    </div>
+</div>
+<!-- PRODUCT-LIST:END -->
+
+

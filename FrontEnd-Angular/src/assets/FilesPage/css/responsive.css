@@ -1,0 +1,1312 @@
+/* Medium Layout: 1280px. */
+
+@media only screen and (min-width: 992px) and (max-width: 1280px) {
+.container{
+	width: 970px;
+} 
+.categories ul#nav li i {
+  margin-left: 66px;
+}
+.best-sell h3 {
+  font-size: 16px;
+}
+.categories-img img {
+  width: 79%;
+}
+.partners-list img {
+  padding: 0;
+  width: 14%;
+}
+.footer_top_single h4 {
+  font-size: 12px;
+}
+
+.sel-pd {
+  margin-left: 12px;
+}
+.product-wid-rating i {
+  font-size: 10px;
+}
+.women-tab {
+  margin-top: -125px;
+}
+
+.blog-search-area .search-button {
+  padding: 7px 9px 13px;
+}
+.blog-search-area {
+  padding: 0 8px;
+}
+.recent-single {
+  padding: 10px 8px;
+}
+.recent-text {
+  left: 82px;
+}
+.recent-text h5 {
+  font-size: 13px;
+}
+.recent-text > p {
+  font-size: 12px;
+}
+.blog-down-text h4 hr {
+  height: 149px;
+}
+.blog-comments button {
+  margin-top: 7px;
+}
+.blog-comments ul li {
+  padding-right: 18px;
+}
+.contact-mail {
+  padding: 10px 50px;
+}
+.bill-right, .ship-right {
+  width: 47%;
+}
+.product-thumb {
+  width: 87px;
+}
+.cc_banner img {
+  width: 100%;
+}
+.blog-text a {
+  font-size: 12px;
+}
+.carousel_title {
+  padding: 3px 4.5px;
+}
+.single_right {
+  width: 49%;
+}
+.single_left {
+  margin-right: 2%;
+  width: 49%;
+}
+.men_clothing_sidebar {
+  padding-bottom: 5px;
+}
+.men_clothing_sidebar, .women_clothing_sidebar, .electronics_sidebar, .bags_shoes_sidebar {
+  min-height: 490px;
+  width: 22%;
+}
+.men_clothing_middle, .women_clothing_middle, .electronics_middle, .bags_shoes_middle {
+  max-height: 585px;
+  width: 37%;
+}
+.carousel_title {
+  bottom: 0;
+}
+.men_clothing_right, .women_clothing_right, .electronics_right, .bag_shoes_right {
+  padding: 8px 29px 0;
+}
+.men_clothing ul li, .women_clothing ul li, .electronics_sidebar ul li, .bags_shoes_sidebar ul li {
+  padding: 5px 0 6px 30px;
+}
+.women_clothing .carousel_title {
+  border: 0;
+}
+.women_clothing .carousel_title {
+  padding: 13px 10.5px;
+}
+.women_clothing_sidebar {
+  padding-bottom: 83px;
+}
+.electronics .carousel_title {
+  padding: 14px 21px;
+}
+.electronics_sidebar {
+  padding-bottom: 76px;
+}
+.bags_shoes .carousel_title {
+  padding: 16px 8.5px;
+}
+.bags_shoes_sidebar {
+  padding-bottom: 106px;
+}
+.search-area .search-button {
+  margin: -39px 0 0;
+  position: relative;
+  z-index: 99;
+}
+.men_clothing_right, .women_clothing_right, .electronics_right, .bag_shoes_right {
+  min-height: 490px;
+  width: 41%;
+}
+.cat-in {
+  padding: 130px;
+}
+.up-in, .down-in {
+  padding: 61px;
+}
+.feat-in {
+  padding: 88px;
+}
+.featured-text {
+  left: 23px;
+  top: 46px;
+}
+.featured-last-text {
+  left: 68px;
+  top: 48px;
+}
+.promo-in {
+  padding: 63px;
+}
+.features-promo-text {
+  left: 92px;
+  top: 32px;
+}
+.women-tab {
+  margin-top: -96px;
+}
+.client .image {
+  left: 191px;
+}
+.women-single, .latest-single {
+  min-height: 370px;
+}
+.footer_top_single {
+  min-height: 123px;
+}
+.owl-carousel .owl-item img {
+  width: 100%;
+}
+.client-list {
+  left: 0;
+  top: 50px;
+}
+.hot-single {
+  min-height: 461px;
+}
+.search-area .search-field {
+  padding: 9px 13px;
+  width: 277px;
+}
+.control-group {
+  position: relative;
+}
+.search-area .search-button {
+  margin: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+.main-menu ul li {
+  padding: 15px 6px;
+}
+.search-area {
+  width: 70%;
+}
+.logo_right span {
+  margin-left: 0;
+  padding: 3px 7px;
+  width: 41px;
+}
+.logo_right a {
+  padding: 6px;
+  width: 121px;
+}
+.categories ul#nav li ul {
+  width: 220px;
+}
+.cat-text {
+  left: 40px;
+  top: 111px;
+}
+.cat-text h3, .up-text h3, .down-text h3 {
+  font-size: 26px;
+}
+.up-text {
+  left: 28px;
+  top: 26px;
+}
+.down-text {
+  left: 43px;
+  top: 27px;
+}
+.right-tx {
+  left: 11px;
+  top: 107px;
+}
+.container {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.about_us_tab {
+  max-height: 390px;
+}
+
+}
+/* Tablet Layout: 768px. */
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+ .container{
+	width:750px;
+}
+.header-right ul,
+.user-menu ul.list-inline {
+	text-align: center;
+}
+.single_promo_text h3,
+.promo_up_text h3,
+.promo_down_text h3 {
+	font-size: 15px;
+}
+.single_promo_text {
+	left: 20px;
+	top: 110px;
+}
+.promo_up_text {
+	left: 45px;
+	top: 18px;
+}
+.promo_down_text {
+  left: 50px;
+  top: 22px;
+}
+.clients_bg img {
+	height: 155px;
+}
+.men_clothing_right,
+.women_clothing_right,
+.electronics_right,
+.bag_shoes_right {
+	background: #fff none repeat scroll 0 0;
+	padding-left: 30px;
+}
+.new_subscribe {
+	top: -200px;
+}
+	
+.about_us_tab {
+  margin-bottom: 30px;
+  max-height: 419px;
+}	
+.header-right ul li {
+  padding: 15px 1px 15px 0;
+}	
+.wl_right {
+  width: 177px;
+}
+.men_clothing_right, .women_clothing_right, .electronics_right, .bag_shoes_right {
+  min-height: 468px;
+  width: 32%;
+}
+.men_clothing_middle, .women_clothing_middle, .electronics_middle, .bags_shoes_middle {
+  max-height: 468px;
+  width: 46%;
+}
+.promo-headline {
+  min-height: 653px;
+}
+.promo_middle {
+  margin-left: 4px;
+}
+.promo_bottom {
+  margin-top: 6px;
+}
+.men_clothing h3, .women_clothing h3, .electronics_sidebar h3, .bags_shoes_sidebar h3 {
+  font-size: 13px;
+}
+.men_clothing ul li, .women_clothing ul li, .electronics_sidebar ul li, .bags_shoes_sidebar ul li {
+  padding: 5px 0 9px 14px;
+}
+.logo_right p {
+  padding: 0 9px;
+}
+.men_clothing_sidebar button, .women_clothing_sidebar button, .electronics_sidebar button, .bags_shoes_sidebar button {
+  margin-left: 8px;
+  width: 100px;
+}
+.men_clothing_sidebar, .women_clothing_sidebar, .electronics_sidebar, .bags_shoes_sidebar {
+  min-height: 468px;
+  width: 22%;
+}
+.single_left {
+  min-height: 220px;
+}
+.single_right {
+  min-height: 220px;
+}
+.electronics_sidebar {
+  padding-bottom: 65px;
+}
+.product-thumb {
+  width: 71px;
+}
+.blog-down-text a {
+  font-size: 16px;
+}
+.contact-mail {
+  padding: 23px 50px;
+}
+.best-sell {
+  display: none;
+}
+.team-title h3 {
+  font-size: 15px;
+}
+.team-single {
+  min-height: 441px;
+}
+.women-tab {
+  margin-top: -23px;
+}
+.logo_right span {
+  padding: 3px 7px;
+  width: 38px;
+}
+.cat-text {
+  left: 0px;
+  top: 57px;
+}
+.up-text {
+  left: 0;
+  top: 1px;
+}
+.cat-text h3, .up-text h3, .down-text h3 {
+  font-size: 29px;
+}
+.down-text {
+  left: 0px;
+  top: -6px;
+}
+.right-tx {
+  left: 0;
+  top: 50px;
+}
+.brands ul li {
+  padding-left: 5px;
+}
+.blog-search-area {
+  padding: 0 5px;
+}
+.blog-search-area .search-button {
+  padding: 6px 8.5px 10px;
+}
+.three-comments {
+  margin-top: 76px;
+}
+.brands h3 {
+  font-size: 16px;
+}	
+.filter h3 {
+  font-size: 13px;
+}
+.colours h3 {
+  font-size: 15px;
+}
+.best-sell h3 {
+  font-size: 13px;
+}
+.best-sell span {
+  margin-right: 2px;
+}
+.product-thumb {
+  margin-bottom: 10px;
+}
+.product-wid-rating {
+  margin: 15px 0 15px 0px;
+}
+.size-cart a {
+  width: 126px;
+}
+.size-down {
+  width: 27%;
+}
+.size-down input[type="number"] {
+  width: 85%;
+}
+.size-cart {
+  margin-left: 1px;
+  width: 120px;
+}
+.size-cart a {
+	font-size:13px;
+  padding: 13px 10px;
+}
+.best-sell span .fa-angle-left {
+  padding: 2px;
+}
+.best-sell span .fa-angle-right {
+  padding: 2px;
+}
+.search-area .search-field {
+  width: 61%;
+}
+.categories ul#nav li i {
+  margin-left: 11px;
+}
+.menu_right {
+  height: 55px;
+  width: 172px;
+}
+.menu_right a {
+  font-size: 12px;
+  width: 118px;
+}
+.mobi-menu {
+  top: 55px;
+}
+.logo_right {
+  width: 168px;
+}
+.partners-list > img {
+  width: 13%;
+}
+
+.blog-categories ul li {
+  padding-left: 9px;
+  padding-top: 12px;
+  font-size: 12px;
+}
+.blog-categories h3 {
+  font-size: 15px;
+}
+.recent-post h3 {
+  font-size: 13px;
+}
+.blog-search h3 {
+  font-size: 15px;
+}
+.blog-search-area .search-field {
+  font-size: 12px;
+  width: 77%;
+}
+.blog-search-area .search-button {
+  padding: 6px 4.5px 10px;
+}
+.blog-search-area .search-button::after {
+  font-size: 12px;
+}
+.recent-single {
+  padding: 10px;
+}
+.recent-text {
+  left: 87px;
+}
+.recent-text h5 {
+  font-size: 11px;
+  margin-bottom: 5px;
+}
+.recent-text > p {
+  font-size: 11px;
+}
+.archives h3 {
+  font-size: 15px;
+}
+.popular-tag h3 {
+  font-size: 14px;
+}
+.mail-left form input {
+  width: 100%;
+}
+.mail-btn p {
+  font-size: 13px;
+  margin-left: 0;
+  margin-top: 7px;
+}
+.bill-left, .ship-left {
+  float: none;
+  margin-bottom: 10px;
+}
+.bill-left form input, .bill-right form input, .ship-left form input, .ship-right form input {
+  width: 100%;
+}
+.bill-right, .ship-right {
+  float: none;
+}
+.blog-down-text h4 hr {
+  height: 122px;
+}
+.women-tab {
+  margin-top: -91px;
+}
+.headline h2 {
+  font-size: 13px;
+}
+.product-tab .nav-tabs > li > a {
+  font-size: 12px;
+  margin-right: 2px;
+  padding: 5px 8px;
+}
+.feat-in {
+  padding: 63px;
+}
+.featured-last-text {
+  left: 30px;
+  top: 18px;
+}
+.promo-in {
+  padding: 43px;
+}
+.features-promo-text {
+  left: 60px;
+  top: 0;
+}
+.client .image {
+  left: 112px;
+}
+.owl-carousel .owl-item img {
+  width: 93%;
+}
+.women_clothing_sidebar {
+  padding-bottom: 84px;
+}
+.men_clothing h3, .women_clothing h3, .electronics_sidebar h3, .bags_shoes_sidebar h3 {
+  padding-left: 16px;
+}
+.electronics_sidebar {
+  padding-bottom: 73px;
+}
+.bags_shoes_sidebar {
+  padding-bottom: 65px;
+}
+.client-list {
+  left: 5px;
+}
+.owl-carousel .owl-item img {
+  width: 100%;
+}
+.hot-single {
+  min-height: 415px;
+}
+.women-single, .latest-single {
+  min-height: 352px;
+}
+.featured-text {
+  left: 14px;
+  top: 0;
+}
+.featured-text > p {
+  font-size: 12px;
+}
+.blog-single {
+  min-height: 380px;
+}
+.img_text {
+  left: 7px;
+  top: 97px;
+}
+.filter_a {
+  float: none;
+  margin-bottom: 11px;
+  margin-left: 13px;
+  width: 100%;
+}
+.best-sell h3 {
+  padding-bottom: 53px;
+}
+.featured-text {
+  left: 11px;
+  top: 18px;
+}
+.hot-wid-rating h4 {
+  font-size: 12px;
+}
+.hot-wid-rating {
+  padding-left: 0;
+}
+.carousel_title {
+  padding: 3px 4.5px;
+}
+.single_right {
+  width: 49%;
+}
+.single_left {
+  margin-right: 2%;
+  width: 49%;
+}
+.men_clothing_sidebar {
+  padding-bottom: 5px;
+}
+.carousel_title {
+  top: 470px;
+}
+.men_clothing_right, .women_clothing_right, .electronics_right, .bag_shoes_right {
+  padding: 8px 8px 6px;
+}
+.men_clothing ul li, .women_clothing ul li, .electronics_sidebar ul li, .bags_shoes_sidebar ul li {
+  padding: 0 0 9px 30px;
+}
+.cat-in {
+  padding: 100px;
+}
+.up-in, .down-in {
+  padding: 43px;
+}
+.search-area {
+  width: 60%;
+}
+.logo_right span {
+  margin-left: 0;
+  padding: 3px 8px;
+  width: 44px;
+}
+.logo_right a {
+  padding: 6px 8px;
+  width: 124px;
+}
+.user-menu ul li {
+  padding: 15px 2px;
+}
+.user-menu ul li a {
+  padding-right: 10px;
+}
+.search-area .search-field {
+  padding: 9px 13px;
+  width: 291px;
+}
+.control-group {
+  position: relative;
+}
+.search-area .search-button {
+  margin: 0;
+  position: absolute;
+  right: 0;
+  top: 44px;
+}
+.main-menu ul li {
+  padding: 15px 7px;
+}
+.container {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.search-area .categories-filter {
+  width: 100%;
+}
+.only-for-mobile {
+  display: block !important;
+  margin-top: 0;
+  position: relative;
+}
+nav.main-menu {
+  display: none;
+}
+h4.hr::after {
+  height: 166px;
+}
+.share-icon ul li {
+  width: 22%;
+}
+.share-icon {
+  width: 66%;
+}
+.single-comment {
+  min-height: 266px;
+}
+.comment-icon ul li {
+  width: 22%;
+}
+.indv-comment.middle-comment {
+  margin-left: 0;
+}
+.middle-comment .r_comment {
+  width: 40%;
+}
+.r_comment {
+  width: 41%;
+}
+.widget_single h4 a {
+  font-size: 13px;
+}
+.checkout button {
+  width: 191px;
+}
+.checkout h4 {
+  font-size: 15px;
+}
+.bill-left, .ship-left {
+  width: 100%;
+}
+.bill-right, .ship-right {
+  margin-left: 0;
+  width: 100%;
+}
+
+
+}
+/* Mobile Layout: 320px. */
+
+@media only screen and (max-width: 767px) {
+.container {
+	width:320px;
+}
+.header-right ul,
+.user-menu ul.list-inline {
+	text-align: center;
+}
+.men_clothing_middle h4,
+.women_clothing_middle h4,
+.electronics_middle h4,
+.bags_shoes_middle h4 {
+	font-size: 13px;
+}
+.single_promo_text h3,
+.promo_up_text h3,
+.promo_down_text h3 {
+	font-size: 15px;
+}
+.single_promo_text {
+	top: 125px;
+}
+.promo_up_text {
+	left: 65px;
+}
+.promo_down_text {
+	top: 235px;
+}
+.about_us_tab .tab-content {
+  margin-bottom: 20px;
+  width: 100%;
+}
+.about_us_tab .nav.nav-tabs {
+  margin-left: 0;
+  width: 100%;
+}
+.about_us_tab {
+  max-height: 582px;
+}
+.about_us_tab .nav-tabs li {
+  margin-right: 17px;
+}
+.promo_up_text {
+  left: 85px;
+  top: 35px;
+}
+.promo_down_text {
+  left: 85px;
+  top: 63px;
+}
+.men_clothing_sidebar,
+.women_clothing_sidebar,
+.electronics_sidebar,
+.bags_shoes_sidebar {
+	background: #fff none repeat scroll 0 0;
+	width: 100%;
+}
+.men_clothing_middle,
+.women_clothing_middle,
+.electronics_middle,
+.bags_shoes_middle {
+	width: 100%;
+}
+.men_clothing_right,
+.women_clothing_right,
+.electronics_right,
+.bag_shoes_right {
+	background: #fff none repeat scroll 0 0;
+	padding: 8px;
+	width: 100%;
+}
+.clients_bg img {
+	height: 120px;
+}
+.single-client img {
+	max-width: 60%;
+}
+.newletter_bg img {
+	height: 165px;
+}
+.new_subscribe h3 {
+	font-size: 15px;
+}
+.client-list {
+  left: 0;
+  position: absolute;
+  top: 63px;
+}
+.new_subscribe p {
+	font-size: 11px;
+	margin: 0 auto;
+	width: 250px;
+}
+.new_subscribe {
+	left: 27px;
+	top: -165px;
+}
+.new_subscribe input[type="text"] {
+	font-size: 10px;
+	width: 148px;
+	padding: 0px;
+}
+.form_border button {
+	font-size: 10px;
+	margin-right: -9px;
+	width: 65px;
+	padding: 0px;
+	height: 25px;
+}
+.men_clothing_right, .women_clothing_right, .electronics_right, .bag_shoes_right {
+  padding: 0;
+}
+	
+	
+.footer_top_single {
+  margin-bottom: 20px;
+}
+.footer_text p {
+  font-size: 12px;
+  text-align: center;
+  margin-bottom:15px;
+}
+.footer_right img {
+  float: none;
+}
+.footer_right {
+  text-align: center;
+}
+.women-tab {
+  margin-top: -35px;
+}
+.categories-img img {
+  width: 78%;
+}
+.partners-list > img {
+  width: 16%;
+}
+.categories-img {
+  margin-top: 20px;
+}
+.partners-list > img {
+  margin-bottom: 20px;
+  width: 100%;
+}
+.team-single {
+  margin-bottom: 20px;
+}
+.theme-box {
+  margin-bottom: 20px;
+}
+.shiptax {
+  margin-bottom: 20px;
+}
+.summary h5 {
+  font-size: 12px;
+}
+.bill-left, .ship-left {
+  float: none;
+  margin-bottom: 10px;
+  width: 100%;
+}
+.bill-right, .ship-right {
+  margin-left: 0;
+  width: 100%;
+}
+.mail-btn {
+  margin-bottom: 20px;
+}
+.bred-title {
+  margin-bottom: 25px;
+}
+.product-img {
+  margin-top: 25px;
+}
+.single-product-content {
+  margin-top: 20px;
+}
+.product-color ul li a {
+  padding: 5px 11px;
+}
+.wish-button button.btn.btn-default.clear-list {
+  margin-left: 0;
+}
+.size-cart {
+  width: 165px;    
+  margin-left: -64px;
+}
+.size-cart a {
+  font-size: 13px;
+  padding-top: 11px;
+}
+.size-down {
+  width: 46%;
+}
+.blog-down-text h4 hr {
+  height: 439px;
+}
+.share-icon {
+  margin: 19px;
+}
+.three-comments {
+  margin-top: 50px;
+}
+.indv-comment.middle-comment {
+  margin-left: 0;
+}
+.mail-right {
+  margin-top: 8px;
+}
+.blog-search-area .search-field {
+  padding: 9px 5px;
+}
+h4.hr::after {
+  height: 343px;
+}
+.userleft {
+  float: none;
+  margin-right: 0;
+}
+.userleft form input {
+  width: 100%;
+}
+.userright {
+  float: none;
+}
+.userright form input {
+  width: 100%;
+}
+.change-form form input {
+  width: 100%;
+}
+.maincategories-area {
+  display: none;
+}
+.headline h2 {
+  font-size: 19px;
+}
+.search-area .categories-filter {
+  width: 100%;
+}
+.search-area .search-button::after {
+  font-size: 15px;
+}
+.search-area .search-field {
+  padding: 9px 10px;
+  width: 67%;
+}
+.logo {
+  margin-bottom: 20px;
+}
+.search-area {
+  margin-left: 0;
+  position: relative;
+  width: 100%;
+}
+.search-area .search-button {
+  position: absolute;
+  right: 0;
+  top: 44px;
+}
+.logo_right {
+  float: right;
+  margin: 0 auto;
+  width: 70.9%;
+}
+.logo_right a {
+  padding: 6px 11px;
+  width: 136px;
+}
+.categories ul#nav li i {
+  margin-left: 147px;
+}
+.categories ul#nav li ul {
+  width: 289px;
+}
+.logo_right span {
+  padding: 3px 17px;
+  width: 60.1px;
+}
+.logo img {
+  margin: 0 auto;
+  display: block;
+}
+.feat-in {
+  padding: 83px;
+}
+.featured-text {
+  left: 29px;
+  top: 89px;
+}
+.percent-t span {
+  left: 26px;
+}
+.blog-image > img {
+  width: 100%;
+}
+.blog-single {
+  margin-bottom: 30px;
+}
+.featured-last-text {
+  left: 80px;
+  top: 64px;
+}
+.men_clothing_right, .women_clothing_right, .electronics_right, .bag_shoes_right {
+  min-height: 460px;
+}
+.cc-h3 {
+  min-height: 243px;
+}
+.men_clothing_sidebar, .women_clothing_sidebar, .electronics_sidebar, .bags_shoes_sidebar {
+  min-height: 475px;
+}
+.featured-single {
+  margin-bottom: 20px;
+}
+.features-promo-single {
+  margin-bottom: 20px;
+}
+.features-promo-text {
+  left: 28px;
+  top: 0;
+}
+.promo-in {
+  padding: 35px;
+}
+.promo_big, .promo_middle {
+  margin-bottom: 20px;
+  width: 100%;
+}
+.promo_middle {
+  margin-left: 0;
+}
+.promo_bottom {
+  margin-top: 20px;
+}
+.filter {
+  overflow: hidden;
+}
+.latest-single img {
+  width: 100%;
+}
+.breadcrumb {
+  margin-top: -41px;
+}
+.blog-comments button {
+  margin-top: -15px;
+}
+.blog-down-text a {
+  font-size: 16px;
+}
+.container {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.only-for-mobile {
+  display: block !important;
+  margin-top: 0;
+  position: relative;
+}
+nav.main-menu {
+  display: none;
+}
+.mobi-menu {
+  top: 49px;
+}
+.bred-title h3 {
+  font-size: 12px;
+}
+.breadcrumb li a {
+  font-size: 12px;
+}
+.share-icon ul li {
+  margin-bottom: 5px;
+}
+.single-comment-text {
+  left: 0;
+  top: 137px;
+}
+.single-comment {
+  margin-bottom: 0;
+  min-height: 468px;
+}
+.comment-icon ul li {
+  margin-bottom: 5px;
+}
+.user-menu {
+  display: none;
+}
+.header-right ul li {
+  padding: 0;
+}
+.header-right ul li a {
+  font-size: 11px;
+  padding-right: 14px;
+  border-right: 0 solid #ffffff;
+}
+.search-area .search-button {
+  background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+  border-left: 0 solid #e0e0e0;
+}
+.logo_right {
+  float: right;
+  margin: 0 auto;
+  width: 100%;
+}
+.logo_right span {
+  margin-left: 0;
+  padding: 3px 20px;
+  width: 70px;
+}
+.logo_right a {
+  padding: 6px 11px;
+  width: 220px;
+}
+.categories ul#nav li {
+  font-size: 15px;
+  padding: 9px 15px;
+}
+.menu_right {
+  float: right;
+  height: 43px;
+  width: 100%;
+}
+.menu_right a {
+  font-size: 13px;
+  line-height: 42px;
+  padding: 0 24px;
+  width: 220px;
+}
+.menu_right span {
+  height: 42px;
+  padding: 9px 28px;
+  width: 70px;
+}
+.categories {
+  display: none;
+}
+
+
+}
+/* Wide Mobile Layout: 480px. */
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+.container {
+	width:450px;
+}
+.about_us_tab .nav-tabs li {
+  margin-right: 18px;
+  width: 29%;
+}
+.mobi-menu {
+  max-width: 418px;
+}
+.blog-comments button {
+  margin-top: 32px;
+}
+.r_comment {
+  width: 28%;
+}
+.middle-comment .r_comment {
+  width: 28%;
+}
+h4.hr::after {
+  height: 194px;
+}
+.indv_header > h5 {
+  width: 60%;
+}
+#cssmenu {
+  max-width: 418px;
+}
+.promo_img > img {
+  width: 100%;
+}
+.men_clothing_middle h4,
+.women_clothing_middle h4,
+.electronics_middle h4,
+.bags_shoes_middle h4 {
+	width: 414px;
+}
+.single_promo_text {
+	left: 120px;
+	top: 190px;
+}
+.clients_bg img {
+	height: 155px;
+}
+.single-client img {
+	max-width: 60%;
+}
+.logo_right span {
+  padding: 3px 17px;
+  width: 60.1px;
+  margin-left: 50px;
+}
+.logo_right a {
+  padding: 6px 39px;
+  width: 187px;
+}
+.categories ul#nav li i {
+  margin-left: 270px;
+}
+.client-list {
+  left: 0;
+  top: 42px;
+}
+.new_subscribe {
+	left: 100px;
+	top: -150px;
+}
+.men_clothing_right, .women_clothing_right, .electronics_right, .bag_shoes_right {
+  padding: 0;
+}
+.product-size {
+  margin-top: 10px;
+}
+.blog-search-area .search-field {
+  padding: 9px 78px;
+}
+.three-comments {
+  margin-top: 128px;
+}
+.blog-down-text h4 hr {
+  height: 265px;
+}
+.feat-hover {
+  left: 17px;
+  top: 0;
+  width: 91%;
+}
+.feat-in {
+  padding: 115px;
+}
+.promo-in {
+  padding: 56px;
+}
+.promo_hover {
+  height: 100%;
+  top: 0;
+  width: 100%;
+}
+.top_img > img {
+  width: 100%;
+}
+.bottom_img > img {
+  width: 100%;
+}
+.men_clothing_middle h4, .women_clothing_middle h4, .electronics_middle h4, .bags_shoes_middle h4 {
+  width: 100%;
+}
+.subscribe-header form.form.subscribe-form div.form-group div.input-group input#f-name.form-control {
+  font-size: 13px;
+}
+.owl-carousel .owl-item img {
+  width: 100%;
+}
+.feat-hover {
+  left: 40px;
+  top: 0;
+  width: 82%;
+}
+.container {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.logo_right span {
+  margin-left: 0;
+  padding: 3px 17px;
+  width: 60px;
+}
+.logo_right a {
+  padding: 6px 39px;
+  width: 360px;
+}
+.menu_right a {
+  width: 350px;
+}
+
+}
